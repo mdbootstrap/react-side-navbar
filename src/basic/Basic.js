@@ -1,13 +1,5 @@
-Side Navbar is an additional navigation component that provides extensive support and a clear way for navigating through complex websites with hundreds of links and subpages.
-
-Check out [React Side Navbar Documentation](https://mdbootstrap.com/docs/react/extended/side-navbar/) for detailed instructions & even more examples.
-
-## Basic example
-
-![React Side Navbar](https://mdbootstrap.com/img/Marketing/github/side-navbar/basic.png)
-
-```js
 import React, { useState } from 'react';
+import './basic.css';
 import {
   MDBContainer,
   MDBNavbar,
@@ -218,69 +210,3 @@ export default function Basic() {
     </>
   );
 }
-```
-
-```css
-body {
-  background-color: #fbfbfb;
-}
-
-@media (min-width: 992px) {
-  .sidebar {
-    height: unset!important;
-  }
-}
-
-/* Sidebar */
-.sidebar {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  padding: 58px 0 0;
-  /* Height of navbar */
-  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
-  width: 240px;
-  /* z-index: 600; */
-}
-
-.sidebar.show {
-  height: 100vh;
-}
-
-@media (max-width: 992px) {
-  .sidebar {
-    width: 100%;
-  }
-}
-
-.sidebar .active {
-  border-radius: 5px;
-  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
-}
-
-.sidebar-sticky {
-  position: relative;
-  top: 0;
-  height: calc(100vh - 48px);
-  padding-top: 0.5rem;
-  overflow-x: hidden;
-  overflow-y: auto;
-  /* Scrollable contents if viewport is shorter than content. */
-}
-```
-
-## How to use?
-
-1. Download MDB React - free UI KIT
-
-2. Choose your favourite customized component and click on the image
-
-3. Copy & paste the code into your MDB project
-
-[▶️ Subscribe to YouTube channel for web development tutorials & resources](https://www.youtube.com/MDBootstrap?sub_confirmation=1)
-
-## More examples
-
-[React Side Navbar Collapse:
-![React Side Navbar Collapse](https://mdbootstrap.com/img/Marketing/github/side-navbar/collapse.png)](https://mdbootstrap.com/docs/react/extended/side-navbar/#section-collapse)

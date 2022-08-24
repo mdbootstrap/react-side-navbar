@@ -1,0 +1,47 @@
+{
+  "name": "@mdbootstrap/react-side-navbar",
+  "version": "1.0.0",
+  "description": "Side Navbar is an additional navigation component that provides extensive support and a clear way for navigating through complex websites with hundreds of links and subpages.",
+  "dependencies": {
+    "mdb-react-ui-kit": "^4.0.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [
+    "bootstrap",
+    "navigation",
+    "bootstrap5",
+    "menu",
+    "sidebar",
+    "responsive-design",
+    "bootstrap-template",
+    "bootstrap-navigation",
+    "bootstrap-slidebar",
+    "bootstrap-sidenav",
+    "template",
+    "react"
+  ],
+  "author": "MDBootstrap",
+  "license": "MIT",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
